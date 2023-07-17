@@ -4,15 +4,17 @@
   width: 600px;
   margin: 0 auto;
 }
-body{
+body {
   padding: 100px 0;
 }
-// @media (max-width: 576px) {
-//   .container {
-//     width: 95%;
-//   }
-// }
-
+@media (max-width: 576px) {
+  body {
+    padding: 45px 0;
+  }
+  .container {
+    width: 95%;
+  }
+}
 
 * {
   font-family: "Poppins";

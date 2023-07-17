@@ -1,0 +1,19 @@
+@import "./reset.scss";
+@import "./font.scss";
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+body{
+  padding: 100px 0;
+}
+// @media (max-width: 576px) {
+//   .container {
+//     width: 95%;
+//   }
+// }
+
+
+* {
+  font-family: "Poppins";
+}
